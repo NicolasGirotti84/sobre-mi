@@ -1,0 +1,53 @@
+/* ESTILO GENERAL */
+body {
+  background-image: url(fondo.jpg);
+  font-family: Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: ;
+  margin: 0;
+}
+/* ESTILO DEL TITULO */
+h1 {
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  text-shadow: 4px 4px 5px ghostwhite;
+}
+/* ESTILO DEL PARRAFO */
+p {
+  font-size: 1.125rem;
+  font-style: italic;
+}
+/*MARGEN TITULO Y PARRAFO*/
+h1,p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+/* ESTILO DEL LABEL */
+label {
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+/* ESTILO DE LOS INPUT, BOTONES, SELECCION */
+input,button,select {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+/* ESTILO DE LOS BOTONES */
+button {
+  border: none;
+}
+/* ESTILO DE LA CLASE CALCULADORA */
+.calculadora {
+    background-color:burlywood;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ccc5b9;
+    max-width: 600px;
+    margin: 0 auto;
+}

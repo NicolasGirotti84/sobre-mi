@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Simple</title>
+</head>
+  <!-- CUERPO CALCULADORA -->
+<body>
+    <div class="calculadora">
+        <h1>Calculadora Simple</h1>
+        <p>Calculadora que realiza operaciones aritmeticas simples.</p>
+        <input type="number" id="num1" placeholder="Primer valor" required="required" minlength="1">
+        <label for="operador">Seleccione la operacion: </label>
+           <select name="operador" id="operador">
+            <option value="suma">+</option>
+            <option value="resta">-</option>
+            <option value="producto">*</option>
+            <option value="division">/</option>
+           </select>
+        <input type="number" id="num2" placeholder="Segundo valor..." required="required" minlength="1">
+          <!-- BOTON CALCULAR -->
+        <button onclick="calcularResultado()" class="Calcular">Calcular</button>
+          <!-- ETIQUETA RESULTADO -->
+        <label id="resultado"> = </label>
+          <!-- BOTON LIMPIAR -->
+        <p><button onclick="limpiarCalculadora()" class="Limpiar">Limpiar</button></p>
+            <!-- LINK JS -->
+        <script src="./calculadora.js"></script>
+    </div>
+</body>
+
+</html>
